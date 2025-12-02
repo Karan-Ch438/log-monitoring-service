@@ -19,40 +19,6 @@ A high-performance REST API service for monitoring and fetching logs from Unix-b
 - **Primary-Secondary Architecture**: Aggregate logs from multiple servers (optional)
 - **Comprehensive Test Suite**: Full test coverage with performance tests
 
-## 🚀 Quick Start
-
-### Installation
-
-1. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Service
-
-1. **Start the main log monitoring server:**
-
-```bash
-python app.py
-```
-
-The server will start on `http://localhost:8000`
-
-2. **Access the Web UI:**
-   Open your browser and navigate to `http://localhost:8000/ui`
-
-3. **API Documentation:**
-
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
-
-### Running Tests
-
-```bash
-pytest test_api.py -v
-```
-
 ## 📡 API Endpoints
 
 ### Core Endpoints
